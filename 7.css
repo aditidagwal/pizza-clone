@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.myheader{
+    height: 65px;
+}
+.myheader img{
+    width: 128px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.myheader a {
+    color: #6B6E79;
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+    margin: 20px;
+    margin-right: 200px;
+    border-bottom: dotted;
+}
+.hero-section{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.hero-section img{
+    width: 100%;
+    height: 65%;
+    background-size: cover;
+}
+.tab-container {
+    width: 480px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    margin: 0px auto ;
+    position: absolute;
+    bottom: 100px;
+    left: 520px;
+    background-color: white;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-link { 
+    background-color: lightgray;
+}
+.nav-item{
+    width: 50%;
+}
+
+#nav-item1 a,
+.nav-item a {
+    padding: 15px 10px;
+    color: #DA291C;
+    text-align: center;
+    font-size: 16.8px;
+}
+
+#nav-item1 img,
+.nav-item img {
+    margin-right: 5px;
+}
+.tab-content {
+    padding: 20px;
+}
+.tab-content {
+    padding: 20px;
+}
+.tab-content h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.tab-content p{
+    font-size: 14px;
+}
+input{
+    height: 50%;
+    border: 2px solid;
+    padding: 15px 10px;
+    border: 1px solid rgb(207, 212, 201);
+}
+.location {
+    padding: 10px;
+    border: 1px solid rgb(207, 212, 201);
+    color: #4A90E2;
+    font-weight: 500;
+    font-size: 14px;
+}
+.deal {
+    height: 500px;
+}
+.images {
+    width: 70%;
+    height: 70%;
+}
+.deal .btn {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 230px;
+    background-color: darkgreen;
+    padding: 10px;
+    border: 2px solid;
+    padding: 13px;
+    
+}
+
+
+
+
+  .divider {
+    font-size: 30px;
+    display: block;
+    align-items: center;
+  }
+  
+  .divider::before, .divider::after {
+    flex: 2;
+    content: '';
+    padding: 3px;
+    background-color: black !important;
+    margin: 5px;
+  }
+
+  .bl-1{
+    border-bottom: 2px solid black !important;
+    width: 50%;
+  }
